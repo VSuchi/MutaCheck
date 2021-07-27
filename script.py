@@ -33,7 +33,3 @@ for M in range(len(MITOMASTER_RESULT_QUERY_SNPs)):
 			print(clinvar_SNPs_wrt_rCRS[m],"Mutation present in the Querry Sequence")
 			print(MITOMASTER_RESULT_DATAFRAME.loc[M])
 			print(clinvar_dataframe.loc[m])
-
-
-
-
